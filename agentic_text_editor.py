@@ -9,7 +9,6 @@ import streamlit as st
 API_KEY=st.secrets.api_key
 API_URL = 'https://api.openai.com/v1/chat/completions'
 OPENAI_API_KEY="sk-proj-your key"
-# OPENAI_API_KEY="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"
 llm=LLM(model='openai/o1-mini',temperature=0.75,max_tokens=16000,api_key=OPENAI_API_KEY)
 
 
